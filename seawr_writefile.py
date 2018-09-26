@@ -1,7 +1,7 @@
 
 import os
 
-path = os.path.abspath("\\\\seaeb-wr\WR\\1_Seattle\HWAS\DATA\Cedars-Sinai Health System\Extracts\Anthem\\test\\test.txt")
+path = 'C:\\\test.txt'
 
 print(path)
 

@@ -15,10 +15,10 @@ with open(textfile) as fp:
 # me == the sender's email address
 # you == the recipient's email address
 msg['Subject'] = 'The contents of %s' % textfile
-msg['From'] = 'no.reply@milliman.com'
-msg['To'] = 'warren.wrate@milliman.com'
+msg['From'] = 'noreply@test.com'
+msg['To'] = 'warren.wrate@test.com'
 
 # Send the message via our own SMTP server.
-s = smtplib.SMTP('SMTP.milliman.com',25)
+s = smtplib.SMTP('##SMTP.com###',25)
 s.send_message(msg)
 s.quit()
